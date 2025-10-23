@@ -1,0 +1,31 @@
+$dk-primary: #34D399;
+$dk-accent: #84CC16;
+$dk-dark: #0F172A;
+$dk-light: #1E293B;
+$dk-background: #0B1120;
+$lt-primary: #059669;
+$lt-accent: #65A30D;
+$lt-dark: #1F2937;
+$lt-light: #F9FAFB;
+$lt-background: #FFFFFF;
+$error: #F43F5E;
+$info: #3B82F6;
+$warning: #F59E0B;
+$success: #10B981;
+
+:export {
+    darkPrimary: $dk-primary;
+    darkAccent: $dk-accent;
+    darkDark: $dk-dark;
+    darkLight: $dk-light;
+    darkBackground: $dk-background;
+    lightPrimary: $lt-primary;
+    lightAccent: $lt-accent;
+    lightDark: $lt-dark;
+    lightLight: $lt-light;
+    lightBackground: $lt-background;
+    error: $error;
+    info: $info;
+    warning: $warning;
+    success: $success;
+}
