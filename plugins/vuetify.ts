@@ -40,11 +40,11 @@ export default createVuetify({
         }
     },
     defaults: {
-            VBtn: {
-      rounded: 'pill',   // <— globally make all buttons pill-shaped
-      // You can also set other global defaults:
-      // color: 'primary',
-      // variant: 'flat',
-    },
+        VBtn: {
+            rounded: 'pill',   // <— globally make all buttons pill-shaped
+            // You can also set other global defaults:
+            // color: 'primary',
+            // variant: 'flat',
+        },  
     }
 })
