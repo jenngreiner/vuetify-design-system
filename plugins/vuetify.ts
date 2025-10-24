@@ -31,6 +31,7 @@ export default createVuetify({
                 dark: false,
                 colors: {
                     primary: palette.lightPrimary,
+                    accent: palette.lightAccent,
                     dark: palette.lightDark,
                     light: palette.lightLight,
                     background: palette.lightBackground,
