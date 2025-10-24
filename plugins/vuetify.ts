@@ -1,4 +1,3 @@
-import '@mdi/font/css/materialdesignicons.css'
 import { createVuetify } from 'vuetify'
 import palette from '../styles/variables.module.scss'
 import * as components from 'vuetify/components'
@@ -7,9 +6,6 @@ import * as directives from 'vuetify/directives'
 export default createVuetify({
     components,
     directives,
-    icons: {
-        defaultSet: 'mdi',
-    },
     theme: {
         defaultTheme: "dark",
         themes: {
@@ -42,5 +38,13 @@ export default createVuetify({
                 }
             }
         }
+    },
+    defaults: {
+            VBtn: {
+      rounded: 'pill',   // <— globally make all buttons pill-shaped
+      // You can also set other global defaults:
+      // color: 'primary',
+      // variant: 'flat',
+    },
     }
 })
