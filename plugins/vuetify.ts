@@ -1,8 +1,15 @@
 import '@mdi/font/css/materialdesignicons.css'
 import { createVuetify } from 'vuetify'
-import palette from 'vuetify-design-system/styles/variables.module.scss'
+import palette from '../styles/variables.module.scss'
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
 
 export default createVuetify({
+    components,
+    directives,
+    icons: {
+        defaultSet: 'mdi',
+    },
     theme: {
         defaultTheme: "dark",
         themes: {
